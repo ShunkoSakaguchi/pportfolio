@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 150vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);  
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 4;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+}
+
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    -webkit-text-stroke: 1px #000;
+}
+ 
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+header.sticky .logo,
+header.sticky ul li a{
+    color: #000;
+}
+
+.clip {
+    background-image: url(名称未\ 1.jpg);
+    height: 100vh;
+    clip-path: polygon(100% 1%, 100% 77%, 0 100%, 0 22%);
+    z-index: 3;
+    background-size: cover;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    color: white;
+    font-size: 120px;
+    top: 230px;
+    font-weight: 700;
+    -webkit-text-stroke: 4px #000
+}
+
+.aboutme {
+    min-height: 150vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);  
+    background-image: url(IMG_0779\ \(3\)\ 2.PNG);
+    background-size: cover;
+    clip-path: polygon(0 7%, 100% 37%, 100% 95%, 0 73%);
+    top: 30px;
+
+}
+.textbox .lorem {
+    position: relative;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 60px;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    margin: auto 140px;
+    top: 330px;
+}
+.text2 {
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    z-index: 3;
+    top: 300px;
+    -webkit-text-stroke: 3px #000;
+    color: #fff;
+}
+
+.lorem {
+    position: relative;
+    top: 380px;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    -webkit-text-stroke: 1px #000;
+}
+
+.aboutme1 {
+    min-height: 140vh;
+    background: url(For\ creat\ LP.jpg);
+    background-size: cover;
+    clip-path: polygon(100% 5%, 100% 76%, 0 96%, 0 23%);
+}
+
+.social {
+    position: absolute;
+    bottom: 80px;
+    display: flex;
+    z-index: 3;
+    margin: 30px;
+  }
+  
+  .social li {
+    list-style: none;
+  }
+  
+  .social li a{
+    display: inline-block;
+    margin-right: 20px;
+    transition: 0.2s;
+  }
+  
+  .social li a:hover{
+    transform: translateY(-15px);
+  }
+

@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 150vh;
+  background: rgb(34,193,195);
+  background: linear-gradient(313deg, rgba(34,193,195,1) 32%, rgba(35,18,84,1) 91%);
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 4;
+}
+
+header.sticky{
+  padding: 5px 100px;
+  background: #fff;
+}
+
+header .logo{
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+  -webkit-text-stroke: 1px #000;
+}
+
+header ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li{
+  position: relative;
+  list-style: none;
+}
+
+header ul li a{
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 600;
+  transition: 0.6s;
+}
+
+.banner{
+  position: relative;
+  width: 100%;
+}
+
+header.sticky .logo,
+header.sticky ul li a{
+  color: #000;
+}
+
+.target {
+  background: url(https://online.vu.edu.au/sites/default/files/field/image/Easiest_countries_to_start_a_business_main_image.jpeg);
+  background-size: cover;
+  z-index: 3;
+  height: 100vh;
+  clip-path: polygon(100% 0, 100% 78%, 0 100%, 0 24%);
+}
+
+.text {
+  position: relative;
+  text-align: center;
+  z-index: 3;
+  font-size: 85px;
+  top: 255px;
+  color: white;
+  -webkit-text-stroke: 2px #000;
+}
+
+.aboutme {
+  min-height: 150vh; 
+  background-image: url(https://static-cse.canva.com/blob/564724/Affordablemarketingideasforyoursmallbusiness_featuredimage.jpg);
+  background-size: cover;
+  clip-path: polygon(0 7%, 100% 37%, 100% 95%, 0 73%);
+}
+
+.textbox .lorem {
+  position: relative;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 60px;
+  margin: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  margin: auto 140px;
+  top: 330px;
+  top: 380px;
+  color: #fff;
+  text-align: center;
+  -webkit-text-stroke: 1px #000;
+}
+
+.text2 {
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  z-index: 3;
+  top: 300px;
+  -webkit-text-stroke: 3px #000;
+  color: #fff;
+}
+
+.aboutme1 {
+  min-height: 140vh;
+  background: url(https://addepto.com/wp-content/uploads/2022/05/background-images_www-3.webp);
+  background-size: cover;
+  clip-path: polygon(100% 74%, 0 96%, 0 34%, 100% 14%);
+}
+
+.text3 {
+  position: relative;
+  text-align: center;
+  font-size: 95px;
+  top: 300px;
+  z-index: 3;
+  -webkit-text-stroke: 3px #000;
+  color: #fff;
+}
+
+.textbox1 .lorem1 {
+  position: relative;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 60px;
+  margin: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  margin: auto 140px;
+  top: 350px;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  -webkit-text-stroke: 1px #000;
+}
+
+.aboutme2 {
+  min-height: 130vh;
+  background: url(https://s37564.pcdn.co/wp-content/uploads/2017/04/Successful-businesses-25417-scaled.jpeg.optimal.jpeg);
+  background-size: cover;
+  clip-path: polygon(100% 94%, 0 78%, 0 11%, 100% 33%);
+  height: 100vh;
+  z-index: 3;
+}
+
+.text4 {
+  position: relative;
+  text-align: center;
+  font-size: 95px;
+  top: 300px;
+  z-index: 3;
+  -webkit-text-stroke: 3px #000;
+  color: #fff;
+}
+
+.textbox2 .lorem2{
+  position: relative;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 60px;
+  margin: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  margin: auto 140px;
+  top: 350px;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  -webkit-text-stroke: 1px #000;
+}

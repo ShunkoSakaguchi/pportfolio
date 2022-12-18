@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="aboutme.css">
+</head>
+<body>
+   <header>
+    <a href="" class="logo">About me</a>
+    <ul>
+        <li><a href="target2.html">Home</a></li>
+        <li><a href="aboutme.html">Aboutme</a></li>
+        <li><a href="school.html">School</a></li>
+        <li><a href="target.html">Target</a></li>
+    </ul>
+   </header>
+   <section class="banner"></section>
+   <div class="clip">
+    <h1 class="text"><span class="text1"></span></h1>
+   </div>
+
+   </div>
+   <section class="aboutme">
+    <div class="textbox">
+    <h1 class="text2">About Me</h1>
+    <h2 class="lorem">I'm Shunko Sakaguchi  16 years old High School student born in Japan,rased in China.
+        So I speak English Japanese and Chinese. and I just study Programming right now.
+    </h2>
+    </div>
+   </section>
+
+   <section class="aboutme1">
+
+   </section>
+   <ul class="social">
+    <li>
+      <a href="https://www.instagram.com/shunnnkkoo/"><img src="https://github.com/Shin-sibainu/video-website-tutorial/blob/main/images/instagram.png?raw=true" alt="" /></a>
+    </li>
+    <li>
+      <a href="https://twitter.com/shunnnkkoo"><img src="https://github.com/Shin-sibainu/video-website-tutorial/blob/main/images/twitter.png?raw=true" alt="" /></a>
+    </li>
+    <li>
+      <a href=""><img src="https://github.com/Shin-sibainu/video-website-tutorial/blob/main/images/facebook.png?raw=true" alt="" /></a>
+    </li>
+  </ul>
+   <script>
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+   </script>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script>
+     ScrollReveal({
+      reset: true,
+      distance: "60px",
+      duration: 2000,
+      delay: 200 ,
+    });
+
+    ScrollReveal().reveal(".text2", {
+      delay: 200,
+      origin: "left",
+    });
+   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  let typed = new Typed(".text1", {
+    strings: ["Shunko Sakaguchi", "サカグチ シュンコウ", "さかぐち しゅんこう"],
+    typeSpeed: 140,
+    backSpeed: 140,
+    loop: true,
+  });
+  </script>
+</body>
+</html> 

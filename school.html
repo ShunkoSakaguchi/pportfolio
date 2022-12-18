@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="school.css">
+</head>
+<body>
+   <header>
+    <a href="" class="logo">My School</a>
+    <ul>
+        <li><a href="target2.html">Home</a></li>
+        <li><a href="aboutme.html">Aboutme</a></li>
+        <li><a href="school.html">School</a></li>
+        <li><a href="target.html">Target</a></li>
+    </ul>
+   </header>
+   <section class="banner"></section>
+   <div class="clip">
+    <h1 class="text"><span class="text1"></span></h1>
+   </div>
+
+   </div>
+   <section class="aboutme">
+    <h1 class="text2">International School of Beijing</h1>
+   </section>
+
+   <section class="aboutme1">
+    <h1 class="text3">Hirakata Junior High School</h1>
+   </section>
+   <ul class="social">
+    <li>
+      <a href="https://www.instagram.com/shunnnkkoo/"><img src="https://github.com/Shin-sibainu/video-website-tutorial/blob/main/images/instagram.png?raw=true" alt="" /></a>
+    </li>
+    <li>
+      <a href="https://twitter.com/shunnnkkoo"><img src="https://github.com/Shin-sibainu/video-website-tutorial/blob/main/images/twitter.png?raw=true" alt="" /></a>
+    </li>
+    <li>
+      <a href=""><img src="https://github.com/Shin-sibainu/video-website-tutorial/blob/main/images/facebook.png?raw=true" alt="" /></a>
+    </li>
+  </ul>
+   <script>
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  let typed = new Typed(".text1",  {
+    strings: ["Japanese", "School of", "Beijing"],
+    typeSpeed: 140,
+    backSpeed: 140,
+    loop: true,
+  });
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  let typed = new Typed(".text3", {
+    strings: ["", "School of", "Beijing"],
+    typeSpeed: 140,
+    backSpeed: 140,
+    loop: true,
+  });
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  ScrollReveal({
+   reset: true,
+   distance: "60px",
+   duration: 2000,
+   delay: 200 ,
+ });
+
+ ScrollReveal().reveal(".text2,.text3", {
+   delay: 400,
+   origin: "left",
+ });
+</script>
+</body>
+</html> 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>target</title>
+  <link rel="stylesheet" href="target.css">
+</head>
+<body>
+  <header>
+    <a href="" class="logo">Target</a>
+    <ul>
+        <li><a href="target2.html">Home</a></li>
+        <li><a href="aboutme.html">Aboutme</a></li>
+        <li><a href="school.html">School</a></li>
+        <li><a href="target.html">Target</a></li>
+    </ul>
+   </header>
+   <section class="banner"></section>
+   
+   <section class="target">
+    <h1 class="text"><span class="text1"></span></h1>
+   </section>
+
+   <section class="aboutme">
+    <div class="textbox">
+    <h1 class="text2">Target 1</h1>
+    <h2 class="lorem">Target 1 is get start to run company in America. Actually I think about wanna run 
+      company since when I was 12. And when I be a high school student I've been just considered about where is best country to run company,
+       and my answer is comes to like this ohh! it's definitely  USA is best!!!! So I determine to run company there 
+    </h2>
+  </section>
+
+    <section class="aboutme1">
+      <h1 class="text3">Target 2</h1>
+      <div class="textbox1">
+      <h2 class="lorem1">Target 2 is gonna be quitely hard. It is I get 10billion dollors on my net worth until when I be a 30 . When you heared this everyone think why are you need to get 10billion dollors on your net worth ? But actually it comes matter with target3 </h2>
+      </div>
+     </section>
+
+     <section class="aboutme2">
+      <h1 class="text4">Target 3</h1>
+      <div class="textbox2">
+        <h2 class="lorem2">Target 3 is my final target. So This target is pretty hard and it's nobody even done this ever. My final target is get decrease to Developing country. As you know developing country is having bunch of problem. In paticular some of the developing country is fighting eachother to get a 
+          resource. So If developing country going to be steady, I bet there not gonna be happen to war. So I wanna solution of this problem.</h2>
+      </div>
+     </section>
+
+   <script>
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  let typed = new Typed(".text1",  {
+    strings: ["My", "Future", "Target"],
+    typeSpeed: 140,
+    backSpeed: 140,
+    loop: true,
+  });
+  </script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  ScrollReveal({
+   reset: true,
+   distance: "60px",
+   duration: 2000,
+   delay: 200 ,
+ });
+
+ ScrollReveal().reveal(".text2,.text3,.text4", {
+   delay: 400,
+   origin: "left",
+ });
+ </script>
+</body>
+</html>
